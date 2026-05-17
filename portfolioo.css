@@ -282,7 +282,40 @@
   .hero__description {
     margin-block-end: 24px;
   }
-  
+  /* ABOUT */
+
+.about__wrapper {
+  padding-block: 100px;
+}
+
+.about__content {
+  max-width: 850px;
+}
+
+.about__headline {
+  margin-block-end: 40px;
+}
+
+.about__text {
+  margin-block-end: 28px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+.projects__intro {
+  grid-column: 1 / span 2;
+  max-width: 700px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+@media (min-width: 62.5em) {
+  .about__wrapper {
+    padding-block: 120px;
+  }
+
+  .about__text {
+    font-size: 1.125rem;
+  }
+}
   @media (min-width: 37.5em) {
     .hero {
       position: relative;
